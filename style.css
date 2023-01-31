@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 13pt;
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+#titulo {
+    color: #015220;
+    margin-left: 7%;
+    border-radius: 55px;
+    border-color: rgb(109, 1, 1);
+    font-size: 24pt;
+}
+
+#subtitulo {
+    font-weight: 400;
+    color: #235c02;
+    margin-left: 10%;
+    font-size: 17pt;
+}
+
+/*Verificar o check após conclusão do projeto*/
+#check {
+    display: inline-block;
+}
+
+/*Verificar o fieldset após concluir projeto*/
+fieldset {
+    border: 0;
+}
+
+body {
+    background-color: #e8f1e5;
+    font-size: 16px;
+    color: #316911;
+    margin-left: 40%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+input, select, textarea, button {
+    border-radius: 4px;
+}
+
+#data {
+    padding: 0 0 0 10px;
+}
+
+.grupo::before, .grupo:after {
+    display: table;
+}
+
+.grupo:after {
+    clear: both;
+}
+
+.campo {
+    margin-bottom: 16px;
+}
+
+.campo label {
+    margin-bottom: 2px;
+    color: #316911;
+    display:block;
+}
+
+fieldset.grupo .campo {
+    float: left;
+    margin-right: 16px;
+}
+
+.campo input[type="email"] {
+    padding: 3px;
+    border: 1px solid #316911;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.3);
+    display: block;
+    width:40%;
+}
+
+.campo input [type="text"], .campo select, .campo textarea {
+    padding: 3px;
+    border: 1px solid #316911;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.3);
+    display: block;
+}
+
+#sobrenome, #nome {
+    width: 104%;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+#data {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+#espaco {
+    padding: 0px 0px 3px 0px;
+}
+
+#margem {
+    padding: 10px 0px 10px 0px;
+}
+
+#tecnologia1 {
+    margin: 10px 0px 0px 0px;
+}
+
+.campo select option {
+    padding-right: 16px;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background-color: #eaf3dc;
+}
+
+.botao {
+    font-size: 18pt;
+    background-color: #a8dbbc;
+    border: 0.1;
+    padding-right: 1px 1px;
+    box-shadow: 2px 2px 2px rgba(0.5, 0.5, 0.5, 0.5);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0);
+    top: 90%;
+    left: 10%;
+    transform: translate(-50% -50%);
+    margin-bottom: 60px;
+}
+
+.botao:hover {
+    background: #70b48c;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: none;
+}
+
+.botao, select {
+    cursor: pointer;
+}
