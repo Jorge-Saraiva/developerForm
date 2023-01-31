@@ -9,27 +9,28 @@ Projeto acadêmico<br/>
   <a href="#tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#layout">Link</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
 <br>
 
-## 🚀 Tecnologias
+## Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML e CSS
 - Git e Github
 
-## 💻 Projeto
+## Projeto
 
 O 'Cadastro de DEVS' é um formulário para Desenvolvedores.
 
-## 🔖 Layout
+## Layout
 
 <p align="center">
   <img alt="Projeto Finanças" src=".github/cadastroDevs.jpg" width="100%">
 </p>
 
-## 🔖 Link
+## Link
 
 https://jorge-saraiva.github.io/developerForm/
